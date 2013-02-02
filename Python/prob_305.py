@@ -1,22 +1,16 @@
-word = []
-number_position = []
-word_found_times = []
-
-for i in range(1, 14):
-	word.append(str(3**i))
-
-for i in range(0, len(word)):
-	word_found_times.append(0)
-
-def get_position():
+def get_position(word):
 	position = -6
 	counter = 1
 	found = []
 	stream = '0000000' # Keep this 7 characters (3**13)
 
 	not_done = True
+	number_position = []
+	word_found_times = []
 	
 
+	for i in range(0, len(word)):
+		word_found_times.append(0)
 
 
 	while not_done:
@@ -33,6 +27,8 @@ def get_position():
 						break
 				if found_word == True:
 					word_found_times[i] += 1
+					print "Found word ", word[i], " at position", position
+					#if word_found_times[i] == 1:#int(word[i]):
 					if word_found_times[i] == int(word[i]):
 						number_position.append(position)
 						print number_position
@@ -45,5 +41,22 @@ def get_position():
 		
 
 
-positions = get_position()
-print sum(positions)
+def prob_305():
+	word = []
+	for i in range(1, 14):
+		word.append(str(3**i))
+	positions = get_position(word)
+	print sum(positions)
+
+
+def test(n):
+	word = []
+	i = 2
+	word.append(str(n))
+	positions = get_position(word)
+	print sum(positions)
+
+test(9)
+test(15)
+test(16)
+test(3**13)
