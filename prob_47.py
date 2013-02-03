@@ -18,19 +18,18 @@ array = []
 for i in range(0, LENGTH):
 	array.append([])
 
-i = 1
+i = 0
+counter = 0
 while True:
-	array[i % LENGTH] = get_factor(i)
 	i += 1
-	All_Length = True
-	for j in range(0, len(array)):
-		if len(array[j]) != LENGTH:
-			All_Length = False
-			break
-
-
-
-	if All_Length == True:
-		print array
-		print i-LENGTH
+	factors = get_factor(i)
+	if len(factors) == LENGTH:
+		array[i % LENGTH] = factors
+		counter += 1
+	else:
+		counter = 0
+	if counter == LENGTH:
+		print i-LENGTH+1
 		break
+
+
