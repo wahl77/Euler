@@ -7,24 +7,18 @@ def get_factor(n):
 		if remainder % prime == 0:
 			if prime not in primes:
 				primes.append(prime)
+				if len(primes) > LENGTH :
+					return LENGTH + 1
 			remainder /= prime
 		else:
 			prime += 1
-	return primes
-
-
-	
-array = []
-for i in range(0, LENGTH):
-	array.append([])
+	return len(primes)
 
 i = 0
 counter = 0
 while True:
 	i += 1
-	factors = get_factor(i)
-	if len(factors) == LENGTH:
-		array[i % LENGTH] = factors
+	if get_factor(i) == LENGTH:
 		counter += 1
 	else:
 		counter = 0
