@@ -1,4 +1,5 @@
-require_relative "main"
+require_relative "../main"
+
 require 'test/unit'
 
 class FibTest < Test::Unit::TestCase
@@ -54,8 +55,34 @@ class ProblembsTest < Test::Unit::TestCase
   end
 
   def test_prob_5
+    assert_equal 2520, Prob5.run(10)
     assert_equal 232792560, Prob5.run
   end
+
+  def test_prob_6
+    assert_equal 2640, Prob6.run(10)
+    assert_equal 25164150, Prob6.run
+  end
+
+  def test_prob_7
+    assert_equal 13, Prob7.run(6)
+    assert_equal 104743, Prob7.run
+  end
+
+  def test_prob_8
+    assert_equal 40824, Prob8.run
+  end
+
+  def test_prob_9
+    assert_equal 60, Prob9.run(12)
+    assert_equal 31875000, Prob9.run
+  end
+
+  def test_prob_10
+    assert_equal 17, Prob10.run(10)
+    assert_equal 142913828922, Prob10.run
+  end
+
 end
 
 

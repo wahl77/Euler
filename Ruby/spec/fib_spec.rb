@@ -1,4 +1,4 @@
-require_relative "../main"
+require_relative "../models/fib.rb"
 
 describe MyMath::Fib do
   before :each do
