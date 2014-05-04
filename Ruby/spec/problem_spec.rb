@@ -49,7 +49,7 @@ describe "Problems" do
   end
 
   it "solves Problem 11" do
-    #expect(Prob11.run).to eql()
+    expect(Prob11.run).to eql(70600674)
   end
 
   it "solves Problem 12" do

@@ -83,6 +83,10 @@ class ProblembsTest < Test::Unit::TestCase
     assert_equal 142913828922, Prob10.run
   end
 
+  def test_prob_11
+    assert_equal 70600674, Prob11.run
+  end
+
 end
 
 
