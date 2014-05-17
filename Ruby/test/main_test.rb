@@ -93,8 +93,12 @@ class ProblembsTest < Minitest::Test
   end
 
   def test_prob_13
-    skip
     assert_equal 5537376230, Prob13.run
+  end
+
+  def test_prob_14
+    assert_equal [13, 40, 20, 10, 5, 16, 8, 4, 2, 1], Prob14.new.send(:chain, 13)
+    assert_equal 837799, Prob14.run
   end
 
 end

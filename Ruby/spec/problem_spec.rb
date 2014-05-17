@@ -62,8 +62,8 @@ describe "Problems" do
   end
 
   it "solves Problem 14" do
-    pending
-    #expect(Prob14.run).to eql()
+    expect(Prob14.new.send(:chain, 13)).to eql([13, 40, 20, 10, 5, 16, 8, 4, 2, 1])
+    expect(Prob14.run).to eql(837799)
   end
 
   it "solves Problem 15" do
