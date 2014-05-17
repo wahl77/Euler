@@ -101,6 +101,10 @@ class ProblembsTest < Minitest::Test
     assert_equal 837799, Prob14.run
   end
 
+  def test_prob_15
+    assert_equal 6, Prob15.run(grid: 2)
+    assert_equal 137846528820, Prob15.run
+  end
 end
 
 

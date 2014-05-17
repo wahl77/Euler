@@ -67,8 +67,8 @@ describe "Problems" do
   end
 
   it "solves Problem 15" do
-    pending
-    #expect(Prob15.run).to eql()
+    expect(Prob15.run(grid: 2)).to eql(6)
+    expect(Prob15.run).to eql(137846528820)
   end
 
   it "solves Problem 16" do
