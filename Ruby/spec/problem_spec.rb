@@ -53,58 +53,72 @@ describe "Problems" do
   end
 
   it "solves Problem 12" do
+    pending
     #expect(Prob12.run).to eql()
   end
 
   it "solves Problem 13" do
+    pending
     #expect(Prob13.run).to eql()
   end
 
   it "solves Problem 14" do
+    pending
     #expect(Prob14.run).to eql()
   end
 
   it "solves Problem 15" do
+    pending
     #expect(Prob15.run).to eql()
   end
 
   it "solves Problem 16" do
+    pending
     #expect(Prob16.run).to eql()
   end
 
   it "solves Problem 17" do
+    pending
     #expect(Prob17.run).to eql()
   end
 
   it "solves Problem 18" do
+    pending
     #expect(Prob18.run).to eql()
   end
 
   it "solves Problem 19" do
+    pending
     #expect(Prob19.run).to eql()
   end
 
   it "solves Problem 20" do
+    pending
     #expect(Prob20.run).to eql()
   end
 
   it "solves Problem 21" do
+    pending
     #expect(Prob21.run).to eql()
   end
 
   it "solves Problem 22" do
+    pending
     #expect(Prob22.run).to eql()
   end
 
   it "solves Problem 23" do
+    pending
     #expect(Prob23.run).to eql()
   end
 
   it "solves Problem 24" do
+    pending
     #expect(Prob24.run).to eql()
   end
 
   it "solves Problem 25" do
+    pending
     #expect(Prob25.run).to eql()
   end
 
@@ -113,111 +127,137 @@ describe "Problems" do
   end
 
   it "solves Problem 27" do
+    pending
     #expect(Prob27.run).to eql()
   end
 
   it "solves Problem 28" do
+    pending
     #expect(Prob28.run).to eql()
   end
 
   it "solves Problem 29" do
+    pending
     #expect(Prob29.run).to eql()
   end
 
   it "solves Problem 30" do
+    pending
     #expect(Prob30.run).to eql()
   end
 
   it "solves Problem 31" do
+    pending
     #expect(Prob31.run).to eql()
   end
 
   it "solves Problem 32" do
+    pending
     #expect(Prob32.run).to eql()
   end
 
   it "solves Problem 33" do
+    pending
     #expect(Prob33.run).to eql()
   end
 
   it "solves Problem 34" do
+    pending
     #expect(Prob34.run).to eql()
   end
 
   it "solves Problem 35" do
+    pending
     #expect(Prob35.run).to eql()
   end
 
   it "solves Problem 36" do
+    pending
     #expect(Prob36.run).to eql()
   end
 
   it "solves Problem 37" do
+    pending
     #expect(Prob37.run).to eql()
   end
 
   it "solves Problem 38" do
+    pending
     #expect(Prob38.run).to eql()
   end
 
   it "solves Problem 39" do
+    pending
     #expect(Prob39.run).to eql()
   end
 
   it "solves Problem 40" do
+    pending
     #expect(Prob40.run).to eql()
   end
 
   it "solves Problem 41" do
+    pending
     #expect(Prob41.run).to eql()
   end
 
   it "solves Problem 42" do
+    pending
     #expect(Prob42.run).to eql()
   end
 
   it "solves Problem 43" do
+    pending
     #expect(Prob43.run).to eql()
   end
 
   it "solves Problem 44" do
+    pending
     #expect(Prob44.run).to eql()
   end
 
   it "solves Problem 45" do
+    pending
     #expect(Prob45.run).to eql()
   end
 
   it "solves Problem 46" do
+    pending
     #expect(Prob46.run).to eql()
   end
 
   it "solves Problem 47" do
+    pending
     #expect(Prob47.run).to eql()
   end
 
   it "solves Problem 48" do
+    pending
     #expect(Prob48.run).to eql()
   end
 
   it "solves Problem 49" do
+    pending
     #expect(Prob49.run).to eql()
   end
 
   it "solves Problem 50" do
+    pending
     #expect(Prob50.run).to eql()
   end
 
   it "solves Problem 51" do
+    pending
     #expect(Prob51.run).to eql()
   end
 
   it "solves Problem 52" do
+    pending
     #expect(Prob52.run).to eql()
   end
 
   it "solves Problem 53" do
+    pending
     #expect(Prob53.run).to eql()
   end
-
 end

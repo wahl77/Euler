@@ -1,15 +1,15 @@
 require_relative "../main"
 
-require 'test/unit'
+require 'minitest/autorun'
 
-class FibTest < Test::Unit::TestCase
+class FibTest < Minitest::Test
   def test_term
     fib = MyMath::Fib.new
     assert_equal 89, fib.term(10)
   end
 end
 
-class PrimeTest < Test::Unit::TestCase
+class PrimeTest < Minitest::Test
   def setup
     @prime = MyMath::Prime.new
     @calculator = MyMath::PrimeCalculator.new
@@ -35,7 +35,7 @@ class PrimeTest < Test::Unit::TestCase
   end
 end
 
-class ProblembsTest < Test::Unit::TestCase
+class ProblembsTest < Minitest::Test
   def test_prob_1
     assert_equal 23, Prob1.run(10)
     assert_equal 233168, Prob1.run
@@ -85,6 +85,13 @@ class ProblembsTest < Test::Unit::TestCase
 
   def test_prob_11
     assert_equal 70600674, Prob11.run
+  end
+
+  def test_prob_12
+    skip
+  end
+  def test_prob_13
+    skip
   end
 
 end
