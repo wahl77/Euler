@@ -88,10 +88,13 @@ class ProblembsTest < Minitest::Test
   end
 
   def test_prob_12
-    skip
+    assert_equal 28, Prob12.run(5)
+    assert_equal 76576500, Prob12.run
   end
+
   def test_prob_13
     skip
+    assert_equal 5537376230, Prob13.run
   end
 
 end
