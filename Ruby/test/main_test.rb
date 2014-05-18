@@ -110,6 +110,11 @@ class ProblembsTest < Minitest::Test
     assert_equal 26, Prob16.run(num: 15)
     assert_equal 1366, Prob16.run
   end
+
+  def test_prob_17
+    assert_equal 19, Prob17.run(num: 5)
+    assert_equal 21124, Prob17.run
+  end
 end
 
 
